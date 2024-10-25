@@ -1,64 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restuarant Manager</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <script defer src="app.js"></script>
-</head>
-<body>
-    <h1> Restuarant Manager </h1>
-    <p> Explain what to do with ingredients below:</p>
+  </head>
+  <body>
+    <h1>Restuarant Manager</h1>
+    <p>Welcome to the exciting world of food service!  You are the manager of <b><i>Narcissio's Italian Cuisine</i></b> and it is your job to order the ingredients that we will need to serve delicious cuisine to our customers. </p>
+    <p>Each the <b>Ingredients</b> you order will be used to make </b>Meals</b> for the customers but watch out! You can only make a meal if you have all of the <b>Ingredients</b>.  </br>
+    The 3 meals you serve are....</br>
+    Pizza: [Dough, Sauce, Meat] </br>
+    Sub:   [Bread, Meat, Oregano] </br>
+    Pasta: [Noodles, Sauce, Oregano] </br>
+    </br>
+    Try go make enough money to afford healthcare for your employees!</br>
+    Good Luck!
+    </p>
     <div id="divBox">
-            <div class="row">
-                <span>Stock:</span>
-                <span>Cart:</span>
-                <span id="money">Money: </span>
-            </div>
-            <div class="row" id = 'r1'>
-                <span class="display inventory">0</span>
-                <span class="display count">0</span>
-                <button class="add">+</button>
-                <button class="remove">-</button>
-                Sauce
-            </div>
-            <div class="row" id = 'r2'>
-                <span class="display inventory">0</span>
-                <span class="display count">0</span>
-                <button class="add">+</button>
-                <button class="remove">-</button>
-                Meat
-            </div>
-            <div class="row" id = 'r3'>
-                <span class="display inventory">0</span>
-                <span class="display count">0</span>
-                <button class="add">+</button>
-                <button class="remove">-</button>
-                Dough
-            </div>
-            <div class="row" id = 'r4'>
-                <span class="display inventory">0</span>
-                <span class="display count">0</span>
-                <button class="add">+</button>
-                <button class="remove">-</button>
-                Oregano
-            </div>
-            <div class="row" id = 'r5'>
-                <span class="display inventory">0</span>
-                <span class="display count">0</span>
-                <button class="add">+</button>
-                <button class="remove">-</button>
-                Noodles
-            </div>
-            <div class="row" id = 'r6'>
-                <span class="display inventory">0</span>
-                <span class="display count">0</span>
-                <button class="add">+</button>
-                <button class="remove">-</button>
-                Bread
-            </div>
-
+      <div class="row">
+        <span>Stock:</span>
+        <span>Cart:</span>
+        <span id="money">Money: </span>
+      </div>
+      <div class="row" id="r1">
+        <span class="display inventory">0</span>
+        <span class="display count">0</span>
+        <button class="add">+</button>
+        <button class="remove">-</button>
+        Sauce
+      </div>
+      <div class="row" id="r2">
+        <span class="display inventory">0</span>
+        <span class="display count">0</span>
+        <button class="add">+</button>
+        <button class="remove">-</button>
+        Meat
+      </div>
+      <div class="row" id="r3">
+        <span class="display inventory">0</span>
+        <span class="display count">0</span>
+        <button class="add">+</button>
+        <button class="remove">-</button>
+        Dough
+      </div>
+      <div class="row" id="r4">
+        <span class="display inventory">0</span>
+        <span class="display count">0</span>
+        <button class="add">+</button>
+        <button class="remove">-</button>
+        Oregano
+      </div>
+      <div class="row" id="r5">
+        <span class="display inventory">0</span>
+        <span class="display count">0</span>
+        <button class="add">+</button>
+        <button class="remove">-</button>
+        Noodles
+      </div>
+      <div class="row" id="r6">
+        <span class="display inventory">0</span>
+        <span class="display count">0</span>
+        <button class="add">+</button>
+        <button class="remove">-</button>
+        Bread
+      </div>
     </div>
-</body>
+    <button class="dinner-button">Dinner</button>
+    <p class="day-counter">day:<span class="day-counter" id="day-counter">1</span></p>
+    
+  </body>
 </html>
